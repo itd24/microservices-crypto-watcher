@@ -1,0 +1,11 @@
+version: "3.7"
+services:
+  app:
+    image: node:14
+    container_name: cryptowatcher
+    restart: always
+    volumes:
+      - ./app:/app
+      - /app/node_modules
+    working_dir: /app
+    command: tail -f /dev/null
