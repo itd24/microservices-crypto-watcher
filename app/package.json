@@ -5,6 +5,7 @@
   "description": "A small example to serve as an introduction to microservices",
   "main": "app.js",
   "dependencies": {
+    "coingecko-api": "^1.0.10",
     "node-cron": "^3.0.0"
   },
   "devDependencies": {},
