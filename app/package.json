@@ -1,9 +1,12 @@
 {
   "name": "cryptowatcher",
   "version": "1.0.0",
+  "type": "module",
   "description": "A small example to serve as an introduction to microservices",
   "main": "app.js",
-  "dependencies": {},
+  "dependencies": {
+    "node-cron": "^3.0.0"
+  },
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
